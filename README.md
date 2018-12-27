@@ -1,12 +1,12 @@
-# Unofficial StreamElements Java API (SEJA)
-This is a Java ported library of StreamElements API
+# Unofficial SkriptHub Java API (SHJA)
+This is a Java ported library of the SkriptHub API
 
 This project is under heavy development.
 
 Pull requests welcome.
 
-## Adding SEJA as a dependency
-SEJA currently uses Jitpack https://jitpack.io/#TheLimeGlass/StreamElements-Java-API/ALPHA
+## Adding SHJA as a dependency
+SEJA currently uses Jitpack https://jitpack.io/#TheLimeGlass/SkriptHub-Java-API/Alpha
 ### Maven
 In your `pom.xml` add:
 ```xml
@@ -19,8 +19,8 @@ In your `pom.xml` add:
 
 <dependency>
     <groupId>com.github.TheLimeGlass</groupId>
-    <artifactId>StreamElements-Java-API</artifactId>
-    <version>Alpha-3</version>
+    <artifactId>SkriptHub-Java-API</artifactId>
+    <version>Alpha</version>
 </dependency>
 
 ```
@@ -35,9 +35,9 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.TheLimeGlass:StreamElements-Java-API:Alpha-3'
+  compile 'com.github.TheLimeGlass:SkriptHub-Java-API:Alpha'
 }
 ```
 Check the link above for SBT and leiningen support.
 
-Examples: https://github.com/TheLimeGlass/StreamElements-Java-API/tree/master/src/test/java/me/limeglass/streamelements
+Examples: https://github.com/TheLimeGlass/SkriptHub-Java-API/tree/master/src/test/java/me/limeglass/skripthub
