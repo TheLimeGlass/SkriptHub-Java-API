@@ -31,7 +31,6 @@ public class AddonsReader extends Reader<AddonsResponse> {
 	
 	@Override
 	protected SkriptHubOptional<AddonsResponse> read(JsonReader reader) {
-		System.out.println("This was called");
 		Set<Addon> addons = new HashSet<Addon>();
 		try {
 			reader.beginArray();

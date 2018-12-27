@@ -28,6 +28,7 @@ public class MainExample {
 				.build();
 		
 		AddonsExample.execute(instance);
+		SyntaxExample.execute(instance);
 	}
 
 	public static SkriptHub getSkriptHub() {
