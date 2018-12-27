@@ -6,7 +6,7 @@ This project is under heavy development.
 Pull requests welcome.
 
 ## Adding SHJA as a dependency
-SEJA currently uses Jitpack https://jitpack.io/#TheLimeGlass/SkriptHub-Java-API/Alpha
+SHJA currently uses Jitpack https://jitpack.io/#TheLimeGlass/SkriptHub-Java-API/Alpha
 ### Maven
 In your `pom.xml` add:
 ```xml
